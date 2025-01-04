@@ -1,6 +1,6 @@
+import { Router } from "express";
 import controladorEstilos from "../controllers/ControladorEstilos.js";
 
-import { Router } from "express";
 
 const routerEstilos = Router()
 

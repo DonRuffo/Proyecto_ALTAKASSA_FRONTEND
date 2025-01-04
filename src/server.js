@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import morgan from 'morgan';
 
 dotenv.config()
 
@@ -10,6 +11,7 @@ import routerImagenes from './Routers/RouterImagenes.js';
 const appFront = express()
 appFront.use(express.json())
 
+appFront.use(morgan('dev'))
 //PUERTO
 appFront.set('port',  process.env.PORT || 6000)
 

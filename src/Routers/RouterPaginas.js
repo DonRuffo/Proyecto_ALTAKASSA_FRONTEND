@@ -1,11 +1,10 @@
+import { Router } from "express";
 import { controladorInicio,
         controladorCrearCuenta,
         controladorLogin,
         controladorRecuperarContra,
-        controladorAcceso
-} from "../controllers/ControladorPaginas.js";
+        controladorAcceso} from "../controllers/ControladorPaginas.js";
 
-import { Router } from "express";
 
 const routerPaginas = Router()
 
