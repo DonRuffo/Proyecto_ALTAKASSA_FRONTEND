@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "build": "npm install express",
     "dev": "node --watch src/index.js"
   },
   "keywords": [],
