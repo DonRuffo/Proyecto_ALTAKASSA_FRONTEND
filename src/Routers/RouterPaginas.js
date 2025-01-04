@@ -3,7 +3,7 @@ import { controladorInicio,
         controladorLogin,
         controladorRecuperarContra,
         controladorAcceso
- } from "../controllers/ControladorPaginas.js";
+} from "../controllers/ControladorPaginas.js";
 
 import { Router } from "express";
 

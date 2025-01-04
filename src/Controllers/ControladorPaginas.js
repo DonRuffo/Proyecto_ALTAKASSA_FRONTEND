@@ -1,4 +1,4 @@
-import paginas from "../modules/ModeloArchivos.js";
+import paginas from "../Modules/ModeloArchivos.js";
 
 const controladorInicio = async(req, res) =>{
     try{

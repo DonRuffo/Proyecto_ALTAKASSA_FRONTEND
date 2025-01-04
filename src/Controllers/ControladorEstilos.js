@@ -1,4 +1,4 @@
-import Estilos from "../modules/ModeloEstilos.js";
+import Estilos from "../Modules/ModeloEstilos.js";
 
 const controladorEstilos = (req, res) =>{
     try{

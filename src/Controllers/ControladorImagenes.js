@@ -1,4 +1,4 @@
-import Imagenes from "../modules/ModeloImagenes.js";
+import Imagenes from "../Modules/ModeloImagenes.js";
 
 const controladorImagenes = async(req, res) =>{
     try{
